@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 import telebot
 import os
-from utils.qrcode import generate_qr_code
+from utils.qr import generate_qr_code
 
 # * This app receives text and sends qr code as a response
 # Load environment variables from the .env file
